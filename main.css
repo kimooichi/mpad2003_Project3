@@ -16,13 +16,24 @@ body
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
 }
 
-#MapImg1
+#MapImg1, .UncleanedChild, .TextContainerChild
 {
     padding: 2em;
 }
 
 .ScreenshotCaption
 {
+    font-size: 12px;
+}
+
+#Img1
+{
+    width: 80%;
+}
+
+.LiveLink
+{
+    color: rgb(152, 5, 5);
     font-size: 12px;
 }
 
@@ -46,6 +57,7 @@ h1
 {
     font-size: 12px;
     font-weight: 600;
+    color: rgb(152, 5, 5);
 }
 
 h2
@@ -69,7 +81,13 @@ h2
     width: 80%;
 }
 
-#IntroductionParent, #ImgParent
+#trafficLight
+{
+    width: 50%;
+    min-width: 12em;
+}
+
+#IntroductionParent, #ImgParent, #UncleanedParent, #TextContainerParent
 {
     display: flex;
     justify-content: center;
@@ -87,7 +105,7 @@ h2
     margin-left: 2em;
 }
 
-h3
+h3, h4
 {
     font-size: 20px;
     font-weight: 600;
