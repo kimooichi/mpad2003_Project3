@@ -1,0 +1,128 @@
+body
+{
+    font-family: 'Montserrat';
+    margin: 0; /* Body has a default margin of 8px */
+    animation: fadeInAnimation ease 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    scroll-behavior: smooth;
+}
+
+#navArea
+{
+    width: 100%;
+    padding-top: 0.5em;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+
+#MapImg1
+{
+    padding: 2em;
+}
+
+.ScreenshotCaption
+{
+    font-size: 12px;
+}
+
+h1
+{
+    font-family: 'Montserrat';
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+
+#Header
+{
+    margin-top: 2em;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+#Credits
+{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+h2
+{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#HeaderText
+{
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#HrDivider
+{
+    margin-top: 4em;
+    margin-bottom: 4em;
+    width: 80%;
+}
+
+#IntroductionParent, #ImgParent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ImgParent
+{
+    text-align: center;
+}
+
+.IntroductionChild
+{
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+h3
+{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+
+#IntroText
+{
+    font-size: 14px;
+}
+
+#BodyText
+{
+    margin-top: 4em;
+    margin-bottom: 4em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.Paragraph
+{
+    text-align: justify;
+}
+
+#FooterHr
+{
+    width: 70%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#FooterTxt
+{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5em;
+}
