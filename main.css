@@ -13,10 +13,16 @@ body
     width: 100%;
     padding-top: 0.5em;
     background-color: white;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    margin-bottom: 5em;
 }
 
-#MapImg1, .UncleanedChild, .TextContainerChild
+#MapImg1
+{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#MapImg1, .UncleanedChild
 {
     padding: 2em;
 }
@@ -28,7 +34,8 @@ body
 
 #Img1
 {
-    width: 80%;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .LiveLink
@@ -48,7 +55,7 @@ h1
 
 #Header
 {
-    margin-top: 2em;
+    margin-top: 4em;
     text-align: center;
     font-family: 'Montserrat';
 }
@@ -72,13 +79,16 @@ h2
     font-weight: 400;
     padding-left: 15%;
     padding-right: 15%;
+    line-height: 1.5em;
 }
 
 #HrDivider
 {
     margin-top: 4em;
     margin-bottom: 4em;
-    width: 80%;
+    width: 70%;
+    border: 0.5px solid rgb(152, 5, 5);
+    opacity: 20%;
 }
 
 #trafficLight
@@ -87,11 +97,22 @@ h2
     min-width: 12em;
 }
 
-#IntroductionParent, #ImgParent, #UncleanedParent, #TextContainerParent
+#IntroductionParent, #ImgParent, #UncleanedParent
 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#UncleanedParent
+{
+    margin-top: 4em;
+}
+
+#IntroTextContainer
+{
+    width: 50%;
+    margin-left: -15em;
 }
 
 #ImgParent
@@ -112,9 +133,15 @@ h3, h4
     font-family: 'Montserrat';
 }
 
+#img4
+{
+    width: 80%;
+}
+
 #IntroText
 {
     font-size: 14px;
+    line-height: 1.5em;
 }
 
 #BodyText
@@ -125,22 +152,51 @@ h3, h4
     padding-right: 10%;
 }
 
+.TextContainer
+{
+   margin-top: 2em;
+   margin-bottom: 2em;
+}
+
 .Paragraph
 {
     text-align: justify;
 }
 
+footer
+{
+    margin-top: 8em;
+}
+
+.Interviewee
+{
+    width: 10em;
+    margin-right: 5em;
+    margin-left: 5em;
+}
+
+.IntName
+{
+    font-size: 12px;
+    font-weight: 400;
+}
+
 #FooterHr
 {
     width: 70%;
-    margin-top: 2em;
+    margin-top: 7em;
     margin-bottom: 2em;
+    border: 0.5px solid rgb(152, 5, 5);
+    opacity: 20%;
 }
 
 #FooterTxt
 {
     text-align: center;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 400;
+    letter-spacing: 0.5px;;
+    color: rgb(152, 5, 5);
     margin-bottom: 5em;
+    text-transform: uppercase;
 }
