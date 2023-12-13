@@ -11,13 +11,16 @@ body
 #navArea
 {
     width: 100%;
-    padding-top: 0.5em;
+    padding-top: 1em;
+    margin-top: -5em;
     background-color: white;
-    margin-bottom: 5em;
+    position: fixed;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #MapImg1
 {
+    margin-top: 5em;
     margin-right: 5%;
     margin-left: 5%;
 }
@@ -25,6 +28,11 @@ body
 #MapImg1, .UncleanedChild
 {
     padding: 2em;
+}
+
+.dataSc
+{
+    width: 100%;
 }
 
 .ScreenshotCaption
@@ -35,7 +43,6 @@ body
 #Img1
 {
     width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .LiveLink
@@ -64,7 +71,6 @@ h1
 {
     font-size: 12px;
     font-weight: 600;
-    color: rgb(152, 5, 5);
 }
 
 h2
@@ -104,6 +110,11 @@ h2
     align-items: center;
 }
 
+#IntroductionParent
+{
+    margin-top: 7em;
+}
+
 #UncleanedParent
 {
     margin-top: 4em;
@@ -128,6 +139,7 @@ h2
 
 h3, h4
 {
+    color: rgb(152, 5, 5);
     font-size: 20px;
     font-weight: 600;
     font-family: 'Montserrat';
@@ -135,7 +147,7 @@ h3, h4
 
 #img4
 {
-    width: 80%;
+    width: 100%;
 }
 
 #IntroText
@@ -153,7 +165,8 @@ h3, h4
 }
 
 .TextContainer
-{
+{   
+   width: 70%;
    margin-top: 2em;
    margin-bottom: 2em;
 }
@@ -161,6 +174,8 @@ h3, h4
 .Paragraph
 {
     text-align: justify;
+    font-size: 14px;
+    line-height: 1.5em;
 }
 
 footer
@@ -192,11 +207,19 @@ footer
 
 #FooterTxt
 {
-    text-align: center;
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 10px;
+    font-weight: 500;
     letter-spacing: 0.5px;;
-    color: rgb(152, 5, 5);
-    margin-bottom: 5em;
+    color: white;
+    margin-bottom: 2em;
     text-transform: uppercase;
+}
+
+#FooterCred
+{
+    text-align: center;
+    padding: 2em;
+    margin-top: 5em;
+    width: 100%;
+    background-color: rgb(28, 28, 28);
 }
